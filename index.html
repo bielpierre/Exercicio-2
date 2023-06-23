@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./scripts.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="field">
+        <label>Quantidade de Kw: </label>
+        <input id="KW" />
+      </div>
+      <div class="field">
+        <label>Valor de kw: </label>
+        <input id="tarifa" />
+        <div class="submit">
+          <button onclick="valorFinal()">Enviar</button>
+        </div>
+        <div>
+          <span>O valor a ser pago sera: R$ </span>
+          <span id="result"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
